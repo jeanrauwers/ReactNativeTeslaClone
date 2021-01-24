@@ -4,7 +4,6 @@ import StyledButton from '../StyledButton'
 import styles from './styles'
 
 export default function CarItem({ image, name, tagline, taglineCTA }) {
-  console.log(tagline)
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={image} style={styles.image} />
